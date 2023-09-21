@@ -1,0 +1,18 @@
+{
+  "favoriteFilm": [
+    {
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/143/358967.jpg",
+      "name": "Arrow",
+      "genres": "Drama,Action,Science-Fiction",
+      "summary": "After a violent shipwreck, billionaire playboy Oliver Queen was missing and presumed dead for five years before being discovered alive on a remote island in the Pacific. He returned home to Starling City, welcomed by his devoted mother Moira, beloved sister Thea and former flame Laurel Lance. With the aid of his trusted chauffeur/bodyguard John Diggle, the computer-hacking skills of Felicity Smoak and the occasional, reluctant assistance of former police detective, now beat cop, Quentin Lance, Oliver has been waging a one-man war on crime.",
+      "id": 2
+    },
+    {
+      "image": "https://static.tvmaze.com/uploads/images/medium_portrait/163/407679.jpg",
+      "name": "Person of Interest",
+      "genres": "Action,Crime,Science-Fiction",
+      "summary": "You are being watched. The government has a secret system, a machine that spies on you every hour of every day. I know because I built it. I designed the Machine to detect acts of terror but it sees everything. Violent crimes involving ordinary people. People like you. Crimes the government considered irrelevant. They wouldnt act so I decided I would. But I needed a partner. Someone with the skills to intervene. Hunted by the authorities, we work in secret. Youll never find us. But victim or perpetrator, if your number is up, well find you.",
+      "id": 6
+    }
+  ]
+}

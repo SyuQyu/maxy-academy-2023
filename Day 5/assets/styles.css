@@ -1,0 +1,115 @@
+:root {
+    --battleship-gray: #929292ff;
+    --seasalt: #F7F7F7ff;
+    --silver: #AFAFAFff;
+    --white: #FFFFFFff;
+    --dim-gray: #6E6E6Eff;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('./images/bg.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ui.menu.fixed {
+    border-radius: 5px !important;
+}
+
+.ui.menu {
+    -webkit-backdrop-filter: blur(10px) saturate(180%) !important;
+    backdrop-filter: blur(10px) saturate(180%) !important;
+    background: rgba(255, 255, 255, .5) !important;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3) !important;
+}
+
+.bg-battleship-gray {
+    background-color: var(--battleship-gray) !important;
+}
+
+.bg-seasalt {
+    background-color: var(--seasalt) !important;
+}
+
+.bg-silver {
+    background-color: var(--silver) !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+.box-wrapper {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3) !important;
+    padding: 5% !important;
+    margin-bottom: 10% !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.equal.height {
+    display: flex !important;
+}
+
+.equal.height .column {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.equal.height .card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.center-content-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui.menu .item {
+    flex: 1 !important;
+    text-align: center !important;
+}
+
+.ui-card-custom {
+    width: 30%;
+    padding-right: 5%;
+}
+
+.custom-navbar-position {
+    top: 30% !important;
+    left: 1%;
+}
+
+@media (max-width: 767px) {
+    .ui.menu {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .ui-card-custom {
+        width: 60%;
+        padding-right: 5%;
+    }
+
+    .custom-navbar-position {
+        top: 25% !important;
+        left: 1%;
+    }
+}

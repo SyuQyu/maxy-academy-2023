@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Filmku</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,15 +28,24 @@
                         <a class="nav-link active" href="./favorite.html">Favorite</a>
                     </li>
                 </ul>
-                <form class="d-flex justify-content-center align-items-center">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" style="width: 50%;" type="submit">Cari Film</button>
-                </form>
+                <div class="d-flex justify-content-center align-items-center">
+                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                </div>
             </div>
         </div>
     </nav>
+    <div style="width: 100%;" class=" mb-5">
+        <div class="sketchfab-embed-wrapper" style="width: 100%; padding: 0;">
+            <iframe title="Cinema - LowPoly" frameborder="0" allowfullscreen mozallowfullscreen="true"
+                webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking
+                execution-while-out-of-viewport execution-while-not-rendered web-share
+                src="https://sketchfab.com/models/35a996c088334ac183a84439b381ea51/embed"
+                style="width: 100%; height: 100%;"></iframe>
+        </div>
+    </div>
     <div class="container">
-        <div class="row row-cols-4" id="favorites-row"></div>
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1" id="favorites-row"></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="

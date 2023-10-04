@@ -1,0 +1,3 @@
+ada error saat import tawk to itu bisa diabaikan saja kareana tawk to tidak support typescript, namun code tetap bisa jalan di local, mungkin error ini akan berpengaruh saat melakukan push ke production. namun karena ini hanya akan dijalankan di local saja maka tidak ada masalah
+
+saya membuat menggunakan framework tailwind untuk utilnya dan juga material tailwind untuk componentsnya
